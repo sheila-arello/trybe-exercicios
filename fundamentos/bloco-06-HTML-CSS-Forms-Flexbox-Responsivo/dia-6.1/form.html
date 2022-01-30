@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <form action="" method="get" class="speaker-form">
+      <h1>Formulário Pessoal</h1>
+      <div class="form-row">
+        <fieldset id="cadastro" class="container sombra">
+          <legend>Meus Dados</legend>
+          <div class="line-content">
+            <label for="full-name">Nome:</label>
+            <input type="text" name="full-name" id="full-name" maxlength="40" required />
+          </div>
+          <div class="line-content">
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" maxlength="50" required />
+          </div>
+          <div class="line-content">
+            <label for="CPF">CPF:</label>
+            <input type="text" name="CPF" id="CPF" maxlength="11" required />
+          </div>
+          <div class="line-content">
+            <label for="endereco">Endereço:</label>
+            <input type="text" name="endereco" id="endereco" maxlength="200" required />
+          </div>
+          <div class="line-content">
+            <label for="cidade">Cidade:</label>
+            <input type="text" name="cidade" id="cidade" maxlength="28" required />
+          </div>
+          <div class="line-content">
+            <label for="estado">  Estado: 
+              <select name="estado" id="estado" required>
+                <option value="">SP</option>
+              </select>
+            </label>
+          </div>
+          <div class="line-content">
+            <fieldset class="legacy-form-row">
+              <legend>Tipo:</legend>
+              <input type="radio"
+                      name="tipo"
+                      id="tipo1"
+                      value="casa"
+                      checked />
+              <label for="tipo1">Casa</label>
+              <input type="radio"
+                      name="tipo"
+                      id="tipo2"
+                      value="apartamento" />
+              <label for="tipo2">Apartamento</label>
+            </fieldset>
+          </div>
+        </fieldset>
+      </div>
+      <div class="form-row">
+        <fieldset id="emprego" class="container sombra">
+          <legend>Último Emprego</legend>
+          <div class="line-content">
+            <label for="" class="c1">Resumo do currículo: 
+              <textarea id="curriculo" maxlength="1000" rows="4" cols="50"></textarea>
+            </label>
+          </div>
+          <div class="line-content">
+            <label for="cargo">Cargo:</label>
+            <input type="text" name="cargo" id="cargo" maxlength="40" required />
+          </div>
+          <div class="line-content">
+            <label for="descricao">Descrição do cargo:</label>
+            <input type="text" name="descricao" id="descricao" maxlength="500" required />
+          </div>
+          <div class="line-content">
+            <label for="data">Data de início:</label>
+            <input type="text" name="data" id="data" maxlength="8" required />
+          </div>
+        </fieldset> 
+      </form>  
+      <br>
+    <button id="enviar" type="submit">Enviar</button>
+    <div id="resumo"></div>
+<!-- Chame uma função JavaScript e interrompa o fluxo automático do form utilizando o preventDefault() . Note que isso vai impedir as validações do HTML ao fazer o submit
+Implemente, agora, no Javascript , as validações que foram pedidas ao longo da montagem do formulário.
+Caso todos os dados sejam válidos, monte uma <div> com o consolidado dos dados que foram inseridos no formulário.
+Caso haja algum dado inválido, mostre em uma <div> uma mensagem de erro. Se o erro for na Data de Início , a mensagem deve ser contextualizada. -->
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>  
+  <meta charset=utf-8 />
+  <title>JS DOM paragraph style</title>
+</head> 
+<body>
+  <p id ='text'>JavaScript Exercises - w3resource</p> 
+  <div>
+    <button id="jsstyle" onclick="js_style()">Style</button>
+  </div>
+  <hr>
+    <form id="form1" onsubmit="getFormvalue()">
+      First name: <input type="text" name="fname" value="David"><br>
+      Last name: <input type="text" name="lname" value="Beckham"><br>
+      <input type="submit" value="Submit">
+    </form>
+    <p id="nome">Nome Completo: </p>
+</body>
+<script>
+  document.getElementById("text").style.backgroundColor = "gray";
+
+  function js_style(){
+    let txtButton = document.getElementById("jsstyle");
+    txtButton.style.fontSize = "24px";
+    txtButton.style.fontFamily = "Arial";
+    document.getElementById("text").style.color = "red";
+
+    // outra forma:
+    //txtButton.style.cssText = "font-size: 30px; font-family: Verdana; font-style: italic";
+  }
+  function getFormvalue(){
+    let nome = document.getElementsByName("fname")[0].value;
+    let sobrenome = document.getElementsByName("lname")[0].value;
+
+    document.getElementById("nome").innerText = `Nome Completo: ${nome} ${sobrenome}`;
+  }
+</script>
+</html>
