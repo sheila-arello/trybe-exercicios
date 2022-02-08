@@ -1,0 +1,20 @@
+Objectdata: 
+Array(100)0: 
+{id: 'bitcoin', rank: '1', symbol: 'BTC', name: 'Bitcoin', supply: '18945831.0000000000000000', …}1: 
+{id: 'ethereum', rank: '2', symbol: 'ETH', name: 'Ethereum', supply: '119400158.6240000000000000', …}2: 
+{id: 'tether', rank: '3', symbol: 'USDT', name: 'Tether', supply: '77980427990.8946000000000000', …}3: 
+{id: 'binance-coin', rank: '4', symbol: 'BNB', name: 'BNB', supply: '166801148.0000000000000000', …}4: 
+{id: 'usd-coin', rank: '5', symbol: 'USDC', name: 'USD Coin', supply: '49993785388.6729900000000000', …}5: 
+{id: 'cardano', rank: '6', symbol: 'ADA', name: 'Cardano', supply: '33566222126.7120000000000000', …}6: 
+{id: 'solana', rank: '7', symbol: 'SOL', name: 'Solana', supply: '315239346.6868303400000000', …}7: 
+{id: 'xrp', rank: '8', symbol: 'XRP', name: 'XRP', supply: '45404028640.0000000000000000', …}8: 
+{id: 'polkadot', rank: '9', symbol: 'DOT', name: 'Polkadot', supply: '1079503147.3015800000000000', …}9: 
+{id: 'terra-luna', rank: '10', symbol: 'LUNA', name: 'Terra', supply: '400872746.7688165000000000', …}10: 
+{id: 'dogecoin', rank: '11', symbol: 'DOGE', name: 'Dogecoin', supply: '132670764299.8940900000000000', …}11: 
+{id: 'avalanche', rank: '12', symbol: 'AVAX', name: 'Avalanche', supply: '245011075.6539886300000000', …}12: 
+{id: 'binance-usd', rank: '13', symbol: 'BUSD', name: 'Binance USD', supply: '15218040177.7292560000000000', …}13: 
+{id: 'polygon', rank: '14', symbol: 'MATIC', name: 'Polygon', supply: '7461070291.2700000000000000', …}14: 
+{id: 'shiba-inu', rank: '15', symbol: 'SHIB', name: 'Shiba Inu', supply: '549063278876301.9400000000000000', …}15:
+length: 100[[Prototype]]: 
+Array(0)timestamp: 1643724463972[[Prototype]]: 
+Object
