@@ -1,0 +1,16 @@
+.btnVerde {
+  background-color: green;
+  color: white;
+  font-weight: 600;
+  padding: 5px 15px;
+  border-radius: 4px;
+}
+
+.btnOrange {
+  background-color: orange;
+  color: rgb(117, 108, 108);
+  font-weight: 600;
+  padding: 5px 15px;
+  border-radius: 2px;
+  margin: 15px;
+}
